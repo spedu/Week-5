@@ -1,4 +1,4 @@
-descibe("most excellent app", function(){
+describe("most excellent app", function(){
   describe("one", function(){
     it("should call console.log", function(){
       var consoleSpy = spyOn(console, "log");
