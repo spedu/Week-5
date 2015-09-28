@@ -10,7 +10,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine', 'requirejs'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
@@ -18,14 +18,11 @@ module.exports = function(config) {
       {pattern: 'js/vendors/**/*.js', included: false},
       {pattern: 'js/app/**/*.js', included: false},
       {pattern: 'js/tests/**/*Spec.js', included: false},
-      'js/tests/tests-main.js',
     ],
 
 
     // list of files to exclude
     exclude: [
-      // we exclude jasmine because we don't want to run the jasmine example specs
-      'js/vendors/jasmine-core/**/*.js'
     ],
 
 
