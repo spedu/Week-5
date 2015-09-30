@@ -27,6 +27,7 @@
 9. Add the new task to the `default` task
 10. Run `gulp`
 11. Fix the errors
+  * add a `.jshintrc` file to your root directory [jshintrc example](https://github.com/jshint/jshint/blob/master/examples/.jshintrc)
  
 ## Install and set up concatenation
 *do this on your own*
