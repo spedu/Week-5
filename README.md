@@ -66,17 +66,20 @@
 *do this one on your own*
 
 1. Install via npm: `karma`, `karma-jasmine`, `karma-phantomjs-launcher` locally
-2. Add the following task
-```
-gulp.task('karma', function (done) {
-  new Server({
-    configFile: __dirname + '/karma.conf.js',
-    singleRun: true
-  }, done).start();
-});
-```
-3. Remove the singleRun line if you want it to run with autowatch
-4. See [this](https://github.com/karma-runner/gulp-karma) for more information
+2. Add a `Server` variable pointing to the karma dir: `var Server = require('karma').server;`
+3. Add the following task
+  ```
+  gulp.task('karma', function (done) {
+    new Server({
+      configFile: __dirname + '/karma.conf.js',
+      singleRun: true
+    }, done).start();
+  });
+  ```
+4. Remove the singleRun line if you want it to run with autowatch
+5. See [this](https://github.com/karma-runner/gulp-karma) for more information
+
+
 
 ## Combine jshint and karma
 *on your own*
