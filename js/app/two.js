@@ -1,3 +1,4 @@
-function two(){
+function two() {
+  'use strict';
   return true;
 }

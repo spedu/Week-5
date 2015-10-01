@@ -1,3 +1,4 @@
-function one(){
-  console.log("this doesn't actually do anything");
+function one() {
+  'use strict';
+  console.log("this doesn't actually do anything!!!");
 }

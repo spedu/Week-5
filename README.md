@@ -66,7 +66,7 @@
 *do this one on your own*
 
 1. Install via npm: `karma`, `karma-jasmine`, `karma-phantomjs-launcher` locally
-2. Add a `Server` variable pointing to the karma dir: `var Server = require('karma').server;`
+2. Add a `Server` variable pointing to the karma dir: `var Server = require('karma').Server;`
 3. Add the following task
 ```
 gulp.task('karma', function (done) {
